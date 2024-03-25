@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nosotros - Empresa XYZ</title>
+    <!-- Enlace al archivo CSS de Tailwind -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-100 flex flex-col min-h-screen">
+    <!-- Contenido principal -->
+    <div
+      class="container mx-auto flex-grow flex flex-col lg:flex-row items-center justify-center py-8 px-4"
+    >
+      <!-- Contenido de texto -->
+      <div class="lg:w-1/2 lg:pr-8">
+        <h1
+          class="text-3xl lg:text-4xl font-bold mb-4 text-center lg:text-left"
+        >
+          Nosotros
+        </h1>
+        <p class="mb-6 text-lg lg:text-xl text-center lg:text-left">
+          Somos una empresa comprometida con la capacitación y el desarrollo
+          profesional en el sector XYZ.
+        </p>
+
+        <!-- Menú desplegable -->
+        <details class="mb-6">
+          <summary class="text-2xl lg:text-3xl font-bold mb-2 cursor-pointer">
+            Nuestra Misión
+          </summary>
+          <p class="text-lg lg:text-xl mb-4 ml-4">
+            Proporcionar programas de capacitación de alta calidad que impulsen
+            el crecimiento y la excelencia en el sector XYZ.
+          </p>
+        </details>
+
+        <!-- Menú desplegable -->
+        <details class="mb-6">
+          <summary class="text-2xl lg:text-3xl font-bold mb-2 cursor-pointer">
+            Convenios
+          </summary>
+          <ul class="list-disc pl-6 mb-4 text-lg lg:text-xl ml-4">
+            <li>Convenio 1</li>
+            <li>Convenio 2</li>
+            <li>Convenio 3</li>
+            <!-- Agrega más convenios si es necesario -->
+          </ul>
+        </details>
+
+        <!-- Menú desplegable -->
+        <details class="mb-6">
+          <summary class="text-2xl lg:text-3xl font-bold mb-2 cursor-pointer">
+            Sector
+          </summary>
+          <p class="text-lg lg:text-xl mb-6 ml-4">
+            Nos especializamos en capacitar profesionales en el sector XYZ,
+            abarcando áreas como ABC, DEF y GHI.
+          </p>
+        </details>
+      </div>
+      <!-- Imagen -->
+      <div class="lg:w-1/2 lg:pl-8 flex justify-center items-center">
+        <img
+          src="tu-imagen.jpg"
+          alt="Imagen"
+          class="rounded-lg shadow-lg max-w-full h-auto"
+        />
+      </div>
+    </div>
+
+    <!-- Pie de página (opcional) -->
+    <footer class="bg-gray-800 text-white py-4 text-center">
+      <div class="container mx-auto">
+        &copy; 2024 Empresa XYZ. Todos los derechos reservados.
+      </div>
+    </footer>
+  </body>
+</html>
